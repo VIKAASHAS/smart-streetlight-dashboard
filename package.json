@@ -1,0 +1,26 @@
+{
+  "name": "smart-streetlight-predictive-dashboard",
+  "version": "1.0.0",
+  "description": "AI-Enabled Predictive Maintenance Dashboard for Smart Streetlight",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "keywords": [
+    "smart-city",
+    "predictive-maintenance",
+    "ai",
+    "streetlight",
+    "iot-simulation"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.43.1"
+  }
+}

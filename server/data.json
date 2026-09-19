@@ -1,0 +1,3627 @@
+{
+  "users": [
+    {
+      "id": "adm_01",
+      "username": "admin",
+      "email": "admin@citylight.gov",
+      "passwordHash": "abbffa62946882d9ba55c3c95c89ee5802e7389ad6456a424b1d11872f388c41",
+      "name": "City Municipal Admin",
+      "role": "admin",
+      "department": "Smart Urban Infrastructure & Lighting"
+    },
+    {
+      "id": "usr_01",
+      "username": "alex",
+      "email": "user@citylight.gov",
+      "passwordHash": "94714e948a82c869c3de79cfd6cecc7ba73dea252bbcc774bc9f0933b5635c56",
+      "name": "Alex Johnson",
+      "role": "user",
+      "location": "Metro Ward 4"
+    },
+    {
+      "id": "usr_02",
+      "username": "sarah",
+      "email": "sarah.j@example.com",
+      "passwordHash": "94714e948a82c869c3de79cfd6cecc7ba73dea252bbcc774bc9f0933b5635c56",
+      "name": "Sarah Jenkins",
+      "role": "user",
+      "location": "Coastal Ward 2"
+    },
+    {
+      "id": "usr_03",
+      "username": "citizen",
+      "email": "citizen@citylight.gov",
+      "passwordHash": "da4611e4080f9e98e813109d5473c307ac5a229edbdbafb119929dffa6706821",
+      "name": "John Citizen",
+      "role": "user",
+      "location": "Sunset Ward 1"
+    }
+  ],
+  "streetlights": [
+    {
+      "id": "SL-001",
+      "name": "Metro Central Pole 1",
+      "location": "Metro Blvd & 4th Ave",
+      "zone": "North District",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "installDate": "2024-01-15",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 119.5,
+      "temperature": 37.2,
+      "operatingHours": 4120,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 98,
+      "voltage": 228,
+      "currentAmps": 0.52,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 120.1,
+          "temperature": 38.6,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 117.6,
+          "temperature": 36.5,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 117.6,
+          "temperature": 35.8,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 119.9,
+          "temperature": 38.5,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-08",
+          "power": 120.2,
+          "temperature": 36.6,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 121.3,
+          "temperature": 38.5,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 117.9,
+          "temperature": 37.3,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 120.3,
+          "temperature": 36.9,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 120.1,
+          "temperature": 38.5,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 118.3,
+          "temperature": 36.3,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 119.4,
+          "temperature": 36.8,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 118.8,
+          "temperature": 37.7,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-16",
+          "power": 120.8,
+          "temperature": 36.7,
+          "brightness": 97,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-17",
+          "power": 118.9,
+          "temperature": 36.7,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 120.7,
+          "temperature": 37.7,
+          "brightness": 98,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [
+        {
+          "date": "2025-06-10",
+          "issue": "Routine driver inspection",
+          "resolvedBy": "Crew Alpha"
+        }
+      ],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-002",
+      "name": "Metro Central Pole 2",
+      "location": "Metro Blvd & 7th Ave",
+      "zone": "North District",
+      "lat": 28.6148,
+      "lng": 77.2105,
+      "installDate": "2024-01-15",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 121,
+      "temperature": 38,
+      "operatingHours": 4135,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 99,
+      "voltage": 230,
+      "currentAmps": 0.53,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 120.1,
+          "temperature": 38.5,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 121.9,
+          "temperature": 36.6,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 120,
+          "temperature": 38.7,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 121.4,
+          "temperature": 38.8,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 120.5,
+          "temperature": 37.7,
+          "brightness": 100,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-09",
+          "power": 119.2,
+          "temperature": 36.8,
+          "brightness": 99,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-10",
+          "power": 120.5,
+          "temperature": 37.4,
+          "brightness": 100,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-11",
+          "power": 122.3,
+          "temperature": 39.4,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 120.8,
+          "temperature": 39,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 122,
+          "temperature": 38.5,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 120.5,
+          "temperature": 37.6,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 119.3,
+          "temperature": 38.6,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 121.4,
+          "temperature": 38,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 120.8,
+          "temperature": 38.1,
+          "brightness": 99,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-18",
+          "power": 120.2,
+          "temperature": 37.4,
+          "brightness": 99,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-003",
+      "name": "Downtown Plaza Pole 1",
+      "location": "City Center Ring Rd",
+      "zone": "North District",
+      "lat": 28.616,
+      "lng": 77.212,
+      "installDate": "2023-11-20",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 122.3,
+      "temperature": 39.1,
+      "operatingHours": 5890,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 96,
+      "voltage": 227,
+      "currentAmps": 0.54,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 121.7,
+          "temperature": 39.1,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 122.4,
+          "temperature": 40.4,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 123,
+          "temperature": 40.4,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 121.2,
+          "temperature": 38.1,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 121.6,
+          "temperature": 38.1,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 123.3,
+          "temperature": 38.6,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 120.9,
+          "temperature": 39.3,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 123.9,
+          "temperature": 38.6,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 123.8,
+          "temperature": 37.6,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 122.9,
+          "temperature": 38.3,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 121.2,
+          "temperature": 39.7,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 122.1,
+          "temperature": 38.9,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 122.9,
+          "temperature": 38.4,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 121,
+          "temperature": 38.9,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 122.6,
+          "temperature": 38.7,
+          "brightness": 96,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-004",
+      "name": "Downtown Plaza Pole 2",
+      "location": "Civic Square West",
+      "zone": "North District",
+      "lat": 28.6172,
+      "lng": 77.2135,
+      "installDate": "2023-11-20",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 118.8,
+      "temperature": 36.8,
+      "operatingHours": 5880,
+      "onOffCyclesToday": 1,
+      "brightnessLevel": 97,
+      "voltage": 229,
+      "currentAmps": 0.52,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 119.4,
+          "temperature": 38.2,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 117.8,
+          "temperature": 35.5,
+          "brightness": 96,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-06",
+          "power": 119,
+          "temperature": 36.6,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 120.1,
+          "temperature": 36.6,
+          "brightness": 96,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-08",
+          "power": 117.7,
+          "temperature": 37.5,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 118.4,
+          "temperature": 36.7,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 117.5,
+          "temperature": 36.5,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 119,
+          "temperature": 35.6,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 120.2,
+          "temperature": 36.9,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 120.6,
+          "temperature": 37.9,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 118.7,
+          "temperature": 37.1,
+          "brightness": 96,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-15",
+          "power": 119.8,
+          "temperature": 36.3,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 118.7,
+          "temperature": 38.2,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 117.2,
+          "temperature": 36.3,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-18",
+          "power": 119.9,
+          "temperature": 35.4,
+          "brightness": 97,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-005",
+      "name": "Grand Avenue Light",
+      "location": "Grand Ave & 2nd Cross",
+      "zone": "North District",
+      "lat": 28.6185,
+      "lng": 77.215,
+      "installDate": "2024-02-10",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 120.4,
+      "temperature": 37.9,
+      "operatingHours": 3950,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 98,
+      "voltage": 231,
+      "currentAmps": 0.52,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 121.5,
+          "temperature": 36.6,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-05",
+          "power": 119.9,
+          "temperature": 37.4,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 121,
+          "temperature": 38.2,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 121.8,
+          "temperature": 37.1,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-08",
+          "power": 119.1,
+          "temperature": 37.2,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 119.3,
+          "temperature": 38.9,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 119.6,
+          "temperature": 38.7,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 119.7,
+          "temperature": 37.6,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 120.3,
+          "temperature": 37.3,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 121.8,
+          "temperature": 37.6,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 121.4,
+          "temperature": 37.5,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 121.8,
+          "temperature": 37.1,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 121.1,
+          "temperature": 39.3,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 121.9,
+          "temperature": 37.8,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 120.7,
+          "temperature": 39.1,
+          "brightness": 97,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-006",
+      "name": "North Gateway Light",
+      "location": "North Expressway Tollway",
+      "zone": "North District",
+      "lat": 28.6198,
+      "lng": 77.2165,
+      "installDate": "2023-08-14",
+      "lampType": "LED 150W Highway Smart Luminaire",
+      "powerConsumption": 148,
+      "temperature": 41.2,
+      "operatingHours": 7200,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 95,
+      "voltage": 230,
+      "currentAmps": 0.64,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 147.1,
+          "temperature": 42.7,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 148.3,
+          "temperature": 39.8,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 149.7,
+          "temperature": 40.2,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 148.9,
+          "temperature": 42.7,
+          "brightness": 96,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-08",
+          "power": 150,
+          "temperature": 42.1,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 146.9,
+          "temperature": 41.2,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 146,
+          "temperature": 39.7,
+          "brightness": 96,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-11",
+          "power": 147.4,
+          "temperature": 40.7,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 148.3,
+          "temperature": 42.3,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 147.8,
+          "temperature": 41.5,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 147,
+          "temperature": 41.3,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 146.3,
+          "temperature": 40.4,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 146.9,
+          "temperature": 41,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 148.9,
+          "temperature": 42.1,
+          "brightness": 96,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-18",
+          "power": 149.6,
+          "temperature": 41.1,
+          "brightness": 96,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 72,
+      "riskLevel": "Medium",
+      "riskScore": 31,
+      "currentStatus": "Needs Attention",
+      "predictedProblem": "Abnormal power consumption",
+      "reasons": [
+        "Abnormal power consumption (148W, +23% above nominal 120W)"
+      ],
+      "recommendedAction": "Inspect LED driver circuit, verify voltage line, and replace surge protector module.",
+      "predictedSL": {
+        "id": "SL-1",
+        "name": "SL-1: Electrical Lead",
+        "crew": "Electrical Lead (Crew Alpha)"
+      },
+      "priorityScore": 31,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-007",
+      "name": "Harbor Promenade Light",
+      "location": "Harbor Front Road 10",
+      "zone": "South District",
+      "lat": 28.605,
+      "lng": 77.201,
+      "installDate": "2023-05-18",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 133,
+      "temperature": 46.5,
+      "operatingHours": 8400,
+      "onOffCyclesToday": 5,
+      "brightnessLevel": 89,
+      "voltage": 224,
+      "currentAmps": 0.59,
+      "maintenanceStatus": "Under Review",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 132,
+          "temperature": 46.4,
+          "brightness": 90,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 134.3,
+          "temperature": 47.9,
+          "brightness": 90,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 133.2,
+          "temperature": 47.9,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 132.8,
+          "temperature": 46.3,
+          "brightness": 89,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 132.6,
+          "temperature": 48,
+          "brightness": 90,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 131.2,
+          "temperature": 45.2,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 134.9,
+          "temperature": 46.5,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 131.3,
+          "temperature": 45.9,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 134.2,
+          "temperature": 46.2,
+          "brightness": 90,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 133.6,
+          "temperature": 45.2,
+          "brightness": 89,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-14",
+          "power": 131.6,
+          "temperature": 45.4,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 132,
+          "temperature": 47.2,
+          "brightness": 89,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 131.8,
+          "temperature": 47.2,
+          "brightness": 89,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 131.7,
+          "temperature": 45.6,
+          "brightness": 90,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 131.8,
+          "temperature": 46.7,
+          "brightness": 89,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 66,
+      "riskLevel": "Medium",
+      "riskScore": 39,
+      "currentStatus": "Needs Attention",
+      "predictedProblem": "Slightly elevated power draw",
+      "reasons": [
+        "Slightly elevated power draw (133W)",
+        "Elevated operating temperature (46.5°C)",
+        "Mild ON/OFF cycle fluctuation (5 cycles)"
+      ],
+      "recommendedAction": "Inspect LED driver circuit, verify voltage line, and replace surge protector module.",
+      "predictedSL": {
+        "id": "SL-1",
+        "name": "SL-1: Electrical Lead",
+        "crew": "Electrical Lead (Crew Alpha)"
+      },
+      "priorityScore": 39,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-008",
+      "name": "South Pier Pole A",
+      "location": "South Pier Bay 2",
+      "zone": "South District",
+      "lat": 28.6035,
+      "lng": 77.2025,
+      "installDate": "2023-09-12",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 121.2,
+      "temperature": 38.6,
+      "operatingHours": 6100,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 97,
+      "voltage": 229,
+      "currentAmps": 0.53,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 119.9,
+          "temperature": 38.5,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 120.4,
+          "temperature": 37.5,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 119.8,
+          "temperature": 38.5,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-07",
+          "power": 120.3,
+          "temperature": 39.6,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 120.1,
+          "temperature": 39.2,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 121.1,
+          "temperature": 38.5,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 120.8,
+          "temperature": 38.8,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 119.6,
+          "temperature": 38.5,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 121.2,
+          "temperature": 37.6,
+          "brightness": 97,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-13",
+          "power": 120.8,
+          "temperature": 39.8,
+          "brightness": 96,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-14",
+          "power": 120.1,
+          "temperature": 38.9,
+          "brightness": 97,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-15",
+          "power": 121.7,
+          "temperature": 39.9,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 122.5,
+          "temperature": 39.4,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-17",
+          "power": 122.6,
+          "temperature": 40.1,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 119.4,
+          "temperature": 39.7,
+          "brightness": 98,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-009",
+      "name": "Industrial Corridor Pole 1",
+      "location": "Factory Lane East",
+      "zone": "South District",
+      "lat": 28.602,
+      "lng": 77.204,
+      "installDate": "2022-10-05",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 119.8,
+      "temperature": 39.4,
+      "operatingHours": 11200,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 94,
+      "voltage": 228,
+      "currentAmps": 0.53,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 118,
+          "temperature": 38.9,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 119.2,
+          "temperature": 40.7,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 121.6,
+          "temperature": 39.6,
+          "brightness": 93,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 120,
+          "temperature": 39.7,
+          "brightness": 93,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 118.5,
+          "temperature": 38,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 119.8,
+          "temperature": 40.5,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 118.2,
+          "temperature": 39.4,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 121.1,
+          "temperature": 38.5,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 121.8,
+          "temperature": 38.5,
+          "brightness": 93,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 119.9,
+          "temperature": 40.1,
+          "brightness": 95,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-14",
+          "power": 119.5,
+          "temperature": 39.4,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 121.5,
+          "temperature": 38.9,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 118.1,
+          "temperature": 38.8,
+          "brightness": 95,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-17",
+          "power": 119.4,
+          "temperature": 39.8,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 117.9,
+          "temperature": 38,
+          "brightness": 95,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-010",
+      "name": "Industrial Corridor Pole 2",
+      "location": "Logistics Hub Gate 4",
+      "zone": "South District",
+      "lat": 28.601,
+      "lng": 77.2055,
+      "installDate": "2022-10-05",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 120.5,
+      "temperature": 38.9,
+      "operatingHours": 11150,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 95,
+      "voltage": 230,
+      "currentAmps": 0.52,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 121.7,
+          "temperature": 37.9,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 121.1,
+          "temperature": 40.1,
+          "brightness": 95,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-06",
+          "power": 122.1,
+          "temperature": 38.9,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 119.4,
+          "temperature": 38.9,
+          "brightness": 96,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-08",
+          "power": 121.1,
+          "temperature": 40.3,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 120.6,
+          "temperature": 38.1,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 120.9,
+          "temperature": 38.3,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 121.2,
+          "temperature": 39.5,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 122,
+          "temperature": 40.2,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 118.8,
+          "temperature": 37.7,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 118.6,
+          "temperature": 39.8,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 119.9,
+          "temperature": 39.1,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 120.5,
+          "temperature": 38.4,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 119.1,
+          "temperature": 39.4,
+          "brightness": 95,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-18",
+          "power": 121.8,
+          "temperature": 38.9,
+          "brightness": 95,
+          "onOffCycles": 3
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-011",
+      "name": "South Riverside Drive",
+      "location": "Riverbank Walkway",
+      "zone": "South District",
+      "lat": 28.5995,
+      "lng": 77.207,
+      "installDate": "2024-03-01",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 118,
+      "temperature": 36.1,
+      "operatingHours": 3200,
+      "onOffCyclesToday": 1,
+      "brightnessLevel": 100,
+      "voltage": 232,
+      "currentAmps": 0.51,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 116.9,
+          "temperature": 36.9,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 119.1,
+          "temperature": 37.5,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 118.4,
+          "temperature": 37.1,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 118.4,
+          "temperature": 37.4,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 118.4,
+          "temperature": 36.2,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 119.1,
+          "temperature": 36.8,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 119.4,
+          "temperature": 36.4,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 116.2,
+          "temperature": 36.5,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 116.7,
+          "temperature": 37.2,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 117,
+          "temperature": 34.7,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 119.1,
+          "temperature": 35.2,
+          "brightness": 100,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-15",
+          "power": 116.3,
+          "temperature": 35.1,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 117.6,
+          "temperature": 34.8,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 117.8,
+          "temperature": 37.4,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 119.7,
+          "temperature": 35.2,
+          "brightness": 100,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-012",
+      "name": "Coastal Highway Pole",
+      "location": "Coastal Highway Km 14",
+      "zone": "South District",
+      "lat": 28.598,
+      "lng": 77.2085,
+      "installDate": "2023-04-22",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 139.5,
+      "temperature": 53.8,
+      "operatingHours": 9800,
+      "onOffCyclesToday": 4,
+      "brightnessLevel": 82,
+      "voltage": 221,
+      "currentAmps": 0.63,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 138.1,
+          "temperature": 53.3,
+          "brightness": 82,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 140.3,
+          "temperature": 55.2,
+          "brightness": 82,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 140.7,
+          "temperature": 52.4,
+          "brightness": 83,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 138.3,
+          "temperature": 54.7,
+          "brightness": 82,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 139.3,
+          "temperature": 53.9,
+          "brightness": 83,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 139.8,
+          "temperature": 55.3,
+          "brightness": 81,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 138.5,
+          "temperature": 53.1,
+          "brightness": 82,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-11",
+          "power": 139.1,
+          "temperature": 52.7,
+          "brightness": 82,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 140.8,
+          "temperature": 54.6,
+          "brightness": 82,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-13",
+          "power": 141.3,
+          "temperature": 55,
+          "brightness": 81,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 140.9,
+          "temperature": 52.5,
+          "brightness": 82,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 140.3,
+          "temperature": 55,
+          "brightness": 82,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-16",
+          "power": 139.7,
+          "temperature": 54.9,
+          "brightness": 81,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 139.2,
+          "temperature": 55.2,
+          "brightness": 83,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 137.6,
+          "temperature": 55.1,
+          "brightness": 82,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 41,
+      "riskLevel": "High",
+      "riskScore": 67,
+      "currentStatus": "Critical",
+      "predictedProblem": "Slightly elevated power draw",
+      "reasons": [
+        "Slightly elevated power draw (139.5W)",
+        "High operating temperature (53.8°C exceeds threshold 45°C)",
+        "Mild ON/OFF cycle fluctuation (4 cycles)",
+        "Slight brightness degradation (82%)"
+      ],
+      "recommendedAction": "Inspect LED driver circuit, verify voltage line, and replace surge protector module.",
+      "predictedSL": {
+        "id": "SL-1",
+        "name": "SL-1: Electrical Lead",
+        "crew": "Electrical Lead (Crew Alpha)"
+      },
+      "priorityScore": 67,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-013",
+      "name": "Innovation Hub Pole 1",
+      "location": "Tech Park Way Blvd",
+      "zone": "East District",
+      "lat": 28.622,
+      "lng": 77.225,
+      "installDate": "2024-04-10",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 120.2,
+      "temperature": 37,
+      "operatingHours": 2900,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 100,
+      "voltage": 230,
+      "currentAmps": 0.52,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 119.7,
+          "temperature": 36.5,
+          "brightness": 99,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-05",
+          "power": 119,
+          "temperature": 37.9,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 121.5,
+          "temperature": 37.3,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 121.8,
+          "temperature": 38.4,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 119.7,
+          "temperature": 35.6,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 120.7,
+          "temperature": 37.2,
+          "brightness": 99,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-10",
+          "power": 122,
+          "temperature": 37.4,
+          "brightness": 100,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-11",
+          "power": 121.1,
+          "temperature": 35.7,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 122,
+          "temperature": 38.2,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 119.7,
+          "temperature": 36.3,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 120,
+          "temperature": 38,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 118.9,
+          "temperature": 38.1,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 119.5,
+          "temperature": 37.3,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 119.4,
+          "temperature": 38.4,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 121.3,
+          "temperature": 36.9,
+          "brightness": 100,
+          "onOffCycles": 3
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-014",
+      "name": "Innovation Hub Pole 2",
+      "location": "Tech Park Ring Rd",
+      "zone": "East District",
+      "lat": 28.6235,
+      "lng": 77.2265,
+      "installDate": "2024-04-10",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 119.4,
+      "temperature": 37.5,
+      "operatingHours": 2910,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 99,
+      "voltage": 229,
+      "currentAmps": 0.52,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 121.3,
+          "temperature": 38,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 117.7,
+          "temperature": 38.5,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 121,
+          "temperature": 38.8,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 119.2,
+          "temperature": 36.9,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 117.8,
+          "temperature": 36.9,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 119,
+          "temperature": 37.3,
+          "brightness": 99,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-10",
+          "power": 118.3,
+          "temperature": 37.2,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 117.4,
+          "temperature": 37.5,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 118.9,
+          "temperature": 37.9,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 120.9,
+          "temperature": 37.3,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 120.2,
+          "temperature": 36.8,
+          "brightness": 100,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-15",
+          "power": 120.3,
+          "temperature": 37.4,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 120,
+          "temperature": 37,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 120.6,
+          "temperature": 37.1,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 120.2,
+          "temperature": 36.6,
+          "brightness": 98,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-015",
+      "name": "University Gate Light",
+      "location": "Campus Main Avenue",
+      "zone": "East District",
+      "lat": 28.625,
+      "lng": 77.228,
+      "installDate": "2023-07-15",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 121.7,
+      "temperature": 38.3,
+      "operatingHours": 7450,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 97,
+      "voltage": 228,
+      "currentAmps": 0.53,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 120.1,
+          "temperature": 38.8,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 123.6,
+          "temperature": 36.8,
+          "brightness": 96,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-06",
+          "power": 121.4,
+          "temperature": 39.4,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 121.4,
+          "temperature": 37.4,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 123.2,
+          "temperature": 39.6,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-09",
+          "power": 123.2,
+          "temperature": 39,
+          "brightness": 96,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-10",
+          "power": 121.9,
+          "temperature": 37.8,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 119.9,
+          "temperature": 38.5,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 121.7,
+          "temperature": 39.6,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 119.8,
+          "temperature": 38,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 119.7,
+          "temperature": 37.5,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 121.8,
+          "temperature": 37.7,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 120.7,
+          "temperature": 37.6,
+          "brightness": 97,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-17",
+          "power": 121.4,
+          "temperature": 39.3,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 120,
+          "temperature": 39.3,
+          "brightness": 97,
+          "onOffCycles": 3
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-016",
+      "name": "University Library Road",
+      "location": "Scholar Walk Lane",
+      "zone": "East District",
+      "lat": 28.6265,
+      "lng": 77.2295,
+      "installDate": "2023-07-15",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 118.9,
+      "temperature": 36.9,
+      "operatingHours": 7420,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 98,
+      "voltage": 231,
+      "currentAmps": 0.51,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 117,
+          "temperature": 38.3,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 117.5,
+          "temperature": 36.8,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 120.4,
+          "temperature": 36.5,
+          "brightness": 97,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-07",
+          "power": 119.8,
+          "temperature": 36.3,
+          "brightness": 99,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-08",
+          "power": 117,
+          "temperature": 37.3,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 118.7,
+          "temperature": 38.2,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 118.1,
+          "temperature": 37,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 118,
+          "temperature": 37.5,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 118.5,
+          "temperature": 37.9,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 120.3,
+          "temperature": 36.7,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-14",
+          "power": 117.2,
+          "temperature": 36.5,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 120,
+          "temperature": 36.4,
+          "brightness": 97,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-16",
+          "power": 118.6,
+          "temperature": 36.9,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 119.1,
+          "temperature": 36.6,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 118.2,
+          "temperature": 37.3,
+          "brightness": 98,
+          "onOffCycles": 3
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-017",
+      "name": "East Market Cross Light",
+      "location": "Commercial Arcade Ave",
+      "zone": "East District",
+      "lat": 28.628,
+      "lng": 77.231,
+      "installDate": "2023-01-20",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 123.1,
+      "temperature": 39.8,
+      "operatingHours": 9200,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 95,
+      "voltage": 226,
+      "currentAmps": 0.54,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 122.3,
+          "temperature": 39.1,
+          "brightness": 95,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-05",
+          "power": 121.6,
+          "temperature": 39.7,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 121.3,
+          "temperature": 40.7,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 122.5,
+          "temperature": 40.6,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 121.5,
+          "temperature": 41,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 123.9,
+          "temperature": 40.5,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 125.1,
+          "temperature": 39.7,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 121.8,
+          "temperature": 40.3,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 123,
+          "temperature": 38.3,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 122,
+          "temperature": 38.3,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 124.1,
+          "temperature": 39.6,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 121.6,
+          "temperature": 41.2,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 122.8,
+          "temperature": 41,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 124,
+          "temperature": 40.6,
+          "brightness": 94,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 122.7,
+          "temperature": 38.4,
+          "brightness": 95,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-018",
+      "name": "Market South Light",
+      "location": "Bazaar Junction 3",
+      "zone": "East District",
+      "lat": 28.6295,
+      "lng": 77.2325,
+      "installDate": "2023-01-20",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 120,
+      "temperature": 37.5,
+      "operatingHours": 9250,
+      "onOffCyclesToday": 1,
+      "brightnessLevel": 98,
+      "voltage": 225,
+      "currentAmps": 0.6,
+      "maintenanceStatus": "Resolved",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 135.3,
+          "temperature": 46.2,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 135.9,
+          "temperature": 44.3,
+          "brightness": 87,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 135,
+          "temperature": 44.2,
+          "brightness": 89,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 137.4,
+          "temperature": 45.6,
+          "brightness": 88,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-08",
+          "power": 135.6,
+          "temperature": 45.4,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 134.8,
+          "temperature": 44.2,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 135.2,
+          "temperature": 44,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 135.8,
+          "temperature": 46.2,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 137,
+          "temperature": 45.7,
+          "brightness": 87,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 134.2,
+          "temperature": 46.3,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 135.4,
+          "temperature": 45.1,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 137.9,
+          "temperature": 43.9,
+          "brightness": 89,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 134.5,
+          "temperature": 46.6,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 137.2,
+          "temperature": 44.5,
+          "brightness": 88,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 134.3,
+          "temperature": 45.6,
+          "brightness": 88,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-019",
+      "name": "Greenfield Park Light 1",
+      "location": "Meadow Way 12",
+      "zone": "West District",
+      "lat": 28.611,
+      "lng": 77.195,
+      "installDate": "2024-05-01",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 119,
+      "temperature": 36.5,
+      "operatingHours": 2100,
+      "onOffCyclesToday": 1,
+      "brightnessLevel": 100,
+      "voltage": 232,
+      "currentAmps": 0.51,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 118,
+          "temperature": 36.8,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 117.2,
+          "temperature": 36.8,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 120,
+          "temperature": 37.8,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 120.7,
+          "temperature": 35.9,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 119.2,
+          "temperature": 36.5,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 119,
+          "temperature": 36.2,
+          "brightness": 100,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-10",
+          "power": 118.3,
+          "temperature": 37.5,
+          "brightness": 100,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-11",
+          "power": 120.2,
+          "temperature": 36.2,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 119.6,
+          "temperature": 36.2,
+          "brightness": 100,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-13",
+          "power": 118,
+          "temperature": 36.5,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 119.5,
+          "temperature": 35.7,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 119.5,
+          "temperature": 37.5,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 118.5,
+          "temperature": 35.7,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 117.7,
+          "temperature": 36.1,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 120.5,
+          "temperature": 37.7,
+          "brightness": 100,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-020",
+      "name": "Greenfield Park Light 2",
+      "location": "Meadow Way 28",
+      "zone": "West District",
+      "lat": 28.6095,
+      "lng": 77.1935,
+      "installDate": "2024-05-01",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 120.1,
+      "temperature": 37.1,
+      "operatingHours": 2120,
+      "onOffCyclesToday": 1,
+      "brightnessLevel": 99,
+      "voltage": 230,
+      "currentAmps": 0.52,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 118.6,
+          "temperature": 36.8,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 121.1,
+          "temperature": 36.1,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-06",
+          "power": 120.1,
+          "temperature": 37.6,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 119.7,
+          "temperature": 38,
+          "brightness": 100,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 121.8,
+          "temperature": 38.5,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-09",
+          "power": 118.1,
+          "temperature": 35.9,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 118.4,
+          "temperature": 38.2,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-11",
+          "power": 119.2,
+          "temperature": 36.9,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 121,
+          "temperature": 36.9,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 120.4,
+          "temperature": 38.5,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 118.2,
+          "temperature": 35.7,
+          "brightness": 100,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-15",
+          "power": 118.5,
+          "temperature": 36.6,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 119.4,
+          "temperature": 36.7,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 118.7,
+          "temperature": 37.2,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 119.6,
+          "temperature": 37,
+          "brightness": 99,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-021",
+      "name": "Oak Ridge Avenue Light",
+      "location": "Oak Ridge & 9th St",
+      "zone": "West District",
+      "lat": 28.608,
+      "lng": 77.192,
+      "installDate": "2023-09-25",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 122.5,
+      "temperature": 38.4,
+      "operatingHours": 5900,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 96,
+      "voltage": 227,
+      "currentAmps": 0.54,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 121.4,
+          "temperature": 37.1,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 120.8,
+          "temperature": 39.6,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 121.2,
+          "temperature": 39.8,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 121.6,
+          "temperature": 37.8,
+          "brightness": 96,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-08",
+          "power": 124.1,
+          "temperature": 38.1,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 123.7,
+          "temperature": 38.2,
+          "brightness": 95,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-10",
+          "power": 123.9,
+          "temperature": 38.7,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 123.3,
+          "temperature": 39.6,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 124.3,
+          "temperature": 39.8,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 123.8,
+          "temperature": 38,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 124.2,
+          "temperature": 37.3,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 123.3,
+          "temperature": 38.6,
+          "brightness": 95,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 121.6,
+          "temperature": 39.4,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 122.5,
+          "temperature": 39.4,
+          "brightness": 97,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-18",
+          "power": 122,
+          "temperature": 39.1,
+          "brightness": 95,
+          "onOffCycles": 3
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-022",
+      "name": "Sunset Boulevard Pole 1",
+      "location": "Sunset Blvd & Hill Rd",
+      "zone": "West District",
+      "lat": 28.6065,
+      "lng": 77.1905,
+      "installDate": "2023-06-18",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 120.8,
+      "temperature": 37.6,
+      "operatingHours": 6800,
+      "onOffCyclesToday": 2,
+      "brightnessLevel": 97,
+      "voltage": 229,
+      "currentAmps": 0.53,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 119.7,
+          "temperature": 38.5,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 120.5,
+          "temperature": 38.6,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 119.4,
+          "temperature": 38.9,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 120.5,
+          "temperature": 36.4,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 120.2,
+          "temperature": 38.4,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 120.1,
+          "temperature": 38.6,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 122.2,
+          "temperature": 37.8,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 120.9,
+          "temperature": 38.2,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 120.6,
+          "temperature": 36.7,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 120,
+          "temperature": 36.6,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 119.7,
+          "temperature": 38.8,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 121.5,
+          "temperature": 38.5,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 122.5,
+          "temperature": 37.8,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 120.9,
+          "temperature": 38.4,
+          "brightness": 96,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 121.9,
+          "temperature": 38.4,
+          "brightness": 97,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-023",
+      "name": "Sunset Boulevard Pole 2",
+      "location": "Sunset Blvd & Valley View",
+      "zone": "West District",
+      "lat": 28.605,
+      "lng": 77.189,
+      "installDate": "2023-06-18",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 118.5,
+      "temperature": 36.7,
+      "operatingHours": 6820,
+      "onOffCyclesToday": 1,
+      "brightnessLevel": 98,
+      "voltage": 231,
+      "currentAmps": 0.51,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 117.2,
+          "temperature": 37.9,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-05",
+          "power": 117.4,
+          "temperature": 38.1,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-06",
+          "power": 118.6,
+          "temperature": 36.3,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-07",
+          "power": 119.8,
+          "temperature": 36.3,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 117.3,
+          "temperature": 35.4,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-09",
+          "power": 117.2,
+          "temperature": 35.9,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 118.9,
+          "temperature": 36.8,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 117.5,
+          "temperature": 37.6,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 116.6,
+          "temperature": 35.7,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 119.7,
+          "temperature": 36.9,
+          "brightness": 99,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 117.4,
+          "temperature": 37,
+          "brightness": 98,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 116.8,
+          "temperature": 37.2,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-16",
+          "power": 117.8,
+          "temperature": 36.5,
+          "brightness": 97,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 116.8,
+          "temperature": 36.1,
+          "brightness": 98,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-18",
+          "power": 118.6,
+          "temperature": 38.2,
+          "brightness": 98,
+          "onOffCycles": 2
+        }
+      ],
+      "failureHistory": [],
+      "healthScore": 100,
+      "riskLevel": "Low",
+      "riskScore": 2,
+      "currentStatus": "Working Normally",
+      "predictedProblem": "None (Optimal)",
+      "reasons": [
+        "All operational indicators within optimal tolerance ranges"
+      ],
+      "recommendedAction": "Perform routine structural pole check and inspect base access panel grounding.",
+      "predictedSL": {
+        "id": "SL-5",
+        "name": "SL-5: Structural Lead",
+        "crew": "Structural Lead (Crew Epsilon)"
+      },
+      "priorityScore": 2,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    },
+    {
+      "id": "SL-024",
+      "name": "Sunset West Gate Light",
+      "location": "Sunset Blvd & Outer Bypass",
+      "zone": "West District",
+      "lat": 28.6035,
+      "lng": 77.1875,
+      "installDate": "2022-11-10",
+      "lampType": "LED 120W Smart Luminaire",
+      "powerConsumption": 154.2,
+      "temperature": 52.4,
+      "operatingHours": 14850,
+      "onOffCyclesToday": 8,
+      "brightnessLevel": 71,
+      "voltage": 218,
+      "currentAmps": 0.71,
+      "maintenanceStatus": "None",
+      "telemetryHistory": [
+        {
+          "date": "2026-09-04",
+          "power": 157.8,
+          "temperature": 54.2,
+          "brightness": 70,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-05",
+          "power": 155.5,
+          "temperature": 49.7,
+          "brightness": 72,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-06",
+          "power": 152.6,
+          "temperature": 54,
+          "brightness": 73,
+          "onOffCycles": 3
+        },
+        {
+          "date": "2026-09-07",
+          "power": 157.5,
+          "temperature": 49.2,
+          "brightness": 69,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-08",
+          "power": 157.6,
+          "temperature": 55.3,
+          "brightness": 73,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-09",
+          "power": 153.4,
+          "temperature": 50.9,
+          "brightness": 71,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-10",
+          "power": 150.9,
+          "temperature": 52.4,
+          "brightness": 73,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-11",
+          "power": 150.5,
+          "temperature": 49.2,
+          "brightness": 70,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-12",
+          "power": 157.8,
+          "temperature": 52.1,
+          "brightness": 72,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-13",
+          "power": 154.4,
+          "temperature": 52.2,
+          "brightness": 69,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-14",
+          "power": 150.7,
+          "temperature": 50.7,
+          "brightness": 73,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-15",
+          "power": 151.8,
+          "temperature": 55.6,
+          "brightness": 70,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-16",
+          "power": 155.1,
+          "temperature": 50.4,
+          "brightness": 73,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-17",
+          "power": 151.7,
+          "temperature": 55.8,
+          "brightness": 73,
+          "onOffCycles": 2
+        },
+        {
+          "date": "2026-09-18",
+          "power": 153.6,
+          "temperature": 52.9,
+          "brightness": 73,
+          "onOffCycles": 3
+        }
+      ],
+      "failureHistory": [
+        {
+          "date": "2024-08-12",
+          "issue": "Photocell calibration",
+          "resolvedBy": "Crew Beta"
+        }
+      ],
+      "healthScore": 11,
+      "riskLevel": "High",
+      "riskScore": 98,
+      "currentStatus": "Critical",
+      "predictedProblem": "Abnormal power consumption",
+      "reasons": [
+        "Abnormal power consumption (154.2W, +28% above nominal 120W)",
+        "High operating temperature (52.4°C exceeds threshold 45°C)",
+        "Frequent ON/OFF behavior (8 cycles today, faulty sensor/relay)",
+        "Slight brightness degradation (71%)"
+      ],
+      "recommendedAction": "Inspect LED driver circuit, verify voltage line, and replace surge protector module.",
+      "predictedSL": {
+        "id": "SL-1",
+        "name": "SL-1: Electrical Lead",
+        "crew": "Electrical Lead (Crew Alpha)"
+      },
+      "priorityScore": 98,
+      "lastUpdated": "2026-09-18T05:43:31.861Z"
+    }
+  ],
+  "failures": [],
+  "recentActivity": [
+    {
+      "id": "ACT-211838",
+      "timestamp": "2026-09-18T05:43:31.838Z",
+      "type": "complaint",
+      "title": "Citizen Complaint Logged: CMP-1838",
+      "description": "Reported Flickering Light & Heavy Dimming on SL-018 by Alex Johnson.",
+      "riskLevel": "Medium"
+    }
+  ],
+  "predictionsHistory": [
+    {
+      "id": "PRED-101",
+      "cycle": "Day 21",
+      "date": "Sep 11, 2026",
+      "time": "09:15 AM",
+      "streetlightId": "SL-018",
+      "location": "Commercial Arcade Ave",
+      "healthScore": 61,
+      "riskScore": 87,
+      "riskLevel": "High",
+      "predictedProblem": "LED / Power System Degradation",
+      "reasons": [
+        "Abnormal power consumption (136W, +13% above nominal 120W)",
+        "High operating temperature (45.2°C exceeds thermal limit)"
+      ],
+      "recommendedAction": "Inspect LED driver and power supply",
+      "accuracyStatus": "Verified"
+    },
+    {
+      "id": "PRED-102",
+      "cycle": "Day 20",
+      "date": "Sep 10, 2026",
+      "time": "10:30 AM",
+      "streetlightId": "SL-027",
+      "location": "Sunset Blvd West",
+      "healthScore": 78,
+      "riskScore": 48,
+      "riskLevel": "Medium",
+      "predictedProblem": "High Operating Temperature",
+      "reasons": [
+        "Operating temperature elevated to 44.5°C",
+        "Minor lumen output fluctuation (-5%)"
+      ],
+      "recommendedAction": "Inspect thermal condition",
+      "accuracyStatus": "Verified"
+    },
+    {
+      "id": "PRED-103",
+      "cycle": "Day 19",
+      "date": "Sep 9, 2026",
+      "time": "08:00 AM",
+      "streetlightId": "SL-034",
+      "location": "Metro Circle Ring Rd",
+      "healthScore": 94,
+      "riskScore": 12,
+      "riskLevel": "Low",
+      "predictedProblem": "Normal Operation",
+      "reasons": [
+        "All operational telemetry parameters within optimal nominal limits",
+        "Nominal power 120W, Temp 36.8°C"
+      ],
+      "recommendedAction": "Continue routine monitoring",
+      "accuracyStatus": "Verified"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "CMP-1838",
+      "streetlightId": "SL-018",
+      "location": "Bazaar Junction 3",
+      "problemType": "Flickering Light & Heavy Dimming",
+      "description": "Streetlight SL-018 has been flickering intermittently since last night, causing low visibility at the junction.",
+      "userName": "Alex Johnson",
+      "userEmail": "user@citylight.gov",
+      "userId": "usr_01",
+      "imageUrl": null,
+      "status": "Resolved",
+      "adminResponse": "Dispatched Electrical Crew Alpha. Replaced faulty LED driver on pole SL-018. Luminaire fully restored.",
+      "createdAt": "2026-09-18T05:43:31.838Z",
+      "updatedAt": "2026-09-18T05:43:31.845Z",
+      "streetlightStatus": "Working Normally",
+      "maintenanceStatus": "Resolved"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "FB-1861",
+      "createdAt": "2026-09-18T05:43:31.861Z",
+      "rating": 5,
+      "comment": "Streetlight SL-018 is working properly after repair. Great service!",
+      "complaintId": "CMP-1838",
+      "streetlightId": "SL-018",
+      "streetlightLocation": "Market South Light (Bazaar Junction 3)",
+      "userName": "Alex Johnson",
+      "userId": "usr_01",
+      "userEmail": "user@citylight.gov"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOTIF-211861",
+      "read": false,
+      "timestamp": "2026-09-18T05:43:31.861Z",
+      "recipientRole": "admin",
+      "title": "New Citizen Feedback on SL-018 (5 ⭐)",
+      "message": "Alex Johnson rated SL-018: \"Streetlight SL-018 is working properly after repai...\"",
+      "type": "info"
+    },
+    {
+      "id": "NOTIF-211850",
+      "read": false,
+      "timestamp": "2026-09-18T05:43:31.850Z",
+      "recipientRole": "user",
+      "userId": "usr_01",
+      "title": "Complaint Updated (CMP-1838)",
+      "message": "Status: \"Resolved\" (Streetlight Status: Working Normally). Response: Dispatched Electrical Crew Alpha. Replaced faulty LED driver on pole SL-018. Luminaire fully restored.",
+      "type": "success"
+    },
+    {
+      "id": "NOTIF-211840",
+      "read": false,
+      "timestamp": "2026-09-18T05:43:31.840Z",
+      "recipientRole": "admin",
+      "title": "New Citizen Complaint: CMP-1838",
+      "message": "Alex Johnson reported \"Flickering Light & Heavy Dimming\" for SL-018.",
+      "type": "warning"
+    },
+    {
+      "id": "NOTIF-01",
+      "recipientRole": "admin",
+      "userId": null,
+      "title": "High AI Risk Alert: SL-024",
+      "message": "AI Predictive Engine detected severe power surge and thermal stress on SL-024 (Sunset Blvd). Assigned SL-1 Electrical Lead.",
+      "type": "critical",
+      "timestamp": "2026-09-08T08:30:00.000Z",
+      "read": false,
+      "link": "/admin/streetlights?id=SL-024"
+    },
+    {
+      "id": "NOTIF-02",
+      "recipientRole": "admin",
+      "userId": null,
+      "title": "AI Failure Alert: SL-012",
+      "message": "High thermal stress detected on SL-012 (Coastal Highway). Assigned SL-2 Thermal Lead.",
+      "type": "warning",
+      "timestamp": "2026-09-07T14:15:00.000Z",
+      "read": false,
+      "link": "/admin/streetlights?id=SL-012"
+    }
+  ],
+  "simulation": {
+    "cycle": 28,
+    "activeScenario": "normal",
+    "lastAdvancedAt": "2026-09-18T05:43:31.805Z"
+  }
+}

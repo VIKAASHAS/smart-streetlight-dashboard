@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: smart-streetlight-dashboard
+    runtime: node
+    plan: starter
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATA_PATH
+        value: /var/data/data.json
+      - key: UPLOADS_PATH
+        value: /var/data/uploads
+    disk:
+      name: streetlight-storage
+      mountPath: /var/data
+      sizeGB: 1
+    autoDeploy: true
