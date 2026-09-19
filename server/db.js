@@ -740,10 +740,11 @@ class Database {
       if (fs.existsSync(DB_FILE)) {
         const raw = fs.readFileSync(DB_FILE, "utf-8");
         this.data = JSON.parse(raw);
-        if (!this.data.users || this.data.users.length === 0) {
-          this.data.users = JSON.parse(JSON.stringify(initialUsers));
-          this.save();
-        }
+        if (!this.data.streetlights || this.data.streetlights.length === 0) {
+  this.data.streetlights = JSON.parse(JSON.stringify(initialStreetlights));
+  this.recalculateAllAI();
+  this.save();
+}
         if (!this.data.failures || this.data.failures.length === 0) {
           this.data.failures = JSON.parse(JSON.stringify(initialFailures));
           this.save();
