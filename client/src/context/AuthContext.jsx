@@ -20,7 +20,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (identifier, password, role, customName) => {
     try {
-      const res = await fetch("/api/auth/login", {
+      const res = await fetch("https://smart-streetlight-dashboard-2.onrender.com/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ identifier, password, role })
